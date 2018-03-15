@@ -17,7 +17,7 @@ dependencies
 ## Examples of use
 
 Setting a value:
-```
+```java
 {
 	(...)
 	SharedPreferencesHelper prefs = new SharedPreferencesHelper(this);
@@ -27,12 +27,12 @@ Setting a value:
 ```
 
 Getting a value:
-```
+```java
 {
 	(...)
 	SharedPreferencesHelper prefs = new SharedPreferencesHelper(this);
 	String tokenID = prefs.getString("config","tokenID");
-    Log.d("TOKEN_ID",tokenID);
-    (...)
+	Log.d("TOKEN_ID",tokenID);
+	(...)
 }
 ```
