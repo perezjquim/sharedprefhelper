@@ -10,7 +10,7 @@ dependencies
 {
 	(...)
 	implementation 'com.github.perezjquim:sharedprefhelper:master-SNAPSHOT'
-    (...)
+	(...)
 }
 ```
 
